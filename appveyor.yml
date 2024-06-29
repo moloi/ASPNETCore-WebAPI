@@ -2,9 +2,9 @@ configuration: Release
 
 #restore NuGet package before running MSBuild 
 before_build :
- -nuget restore 
+ - nuget restore 
 
 #package Web Application project for Web Deploy
 build: 
  verbosity: minimal 
-  publish_wrap: true 
+ publish_wap: true 
